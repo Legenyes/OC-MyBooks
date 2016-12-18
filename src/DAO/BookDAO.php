@@ -18,7 +18,7 @@ class BookDAO extends DAO
     private $authorDAO;
 
     public function setAuthorDAO(AuthorDAO $authorDAO) {
-        $this->$authorDAO = $authorDAO;
+        $this->authorDAO = $authorDAO;
     }
 
     /**
