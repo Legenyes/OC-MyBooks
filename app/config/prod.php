@@ -12,7 +12,7 @@ $app['db.options'] = array(
     'charset'  => 'utf8',
     'host'     => 'localhost',
     'port'     => '3306',
-    'dbname'   => 'my_books',
-    'user'     => 'my_books_user',
+    'dbname'   => 'mybooks',
+    'user'     => 'mybooks',
     'password' => 'secret',
 );
