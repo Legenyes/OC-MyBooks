@@ -26,6 +26,6 @@ $app['dao.author'] = $app->share(function ($app) {
 });
 $app['dao.book'] = $app->share(function ($app) {
     $bookDAO = new MyBooksCMS\DAO\BookDAO($app['db']);
-    $bookDAO->seAuthorDAO($app['dao.author']);
+    $bookDAO->setAuthorDAO($app['dao.author']);
     return $bookDAO;
 });
